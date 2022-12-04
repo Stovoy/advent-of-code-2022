@@ -7,7 +7,7 @@ lines = utils.read_input_lines()
 
 result = 0
 for line in lines:
-    half = int(len(line) / 2)
+    half = len(line) // 2
     a = line[half:]
     b = line[:half]
     intersection = set(a).intersection(set(b))
