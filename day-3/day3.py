@@ -3,7 +3,7 @@ import utils
 
 priorities = {k: i + 1 for i, k in enumerate(string.ascii_lowercase + string.ascii_uppercase)}
 
-lines = utils.read_input_lines()
+lines = utils.read_input_lines(strip=True)
 
 result = 0
 for line in lines:

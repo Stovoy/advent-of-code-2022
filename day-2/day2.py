@@ -1,6 +1,6 @@
 import utils
 
-lines = utils.read_input_lines()
+lines = utils.read_input_lines(strip=True)
 scores = {'X': 1, 'Y': 2, 'Z': 3}
 mapping = {'A': 'X', 'B': 'Y', 'C': 'Z'}
 winning = {'X': 'Y', 'Y': 'Z', 'Z': 'X'}
